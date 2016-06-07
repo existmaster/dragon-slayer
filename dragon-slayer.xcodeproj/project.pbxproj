@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A13D48931D02C26A0035B202 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13D48921D02C26A0035B202 /* AppDelegate.swift */; };
+		A13D48951D02C26A0035B202 /* GameScened.sks in Resources */ = {isa = PBXBuildFile; fileRef = A13D48941D02C26A0035B202 /* GameScened.sks */; };
+		A13D48971D02C26A0035B202 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13D48961D02C26A0035B202 /* GameScene.swift */; };
+		A13D48991D02C26A0035B202 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13D48981D02C26A0035B202 /* GameViewController.swift */; };
+		A13D489C1D02C26A0035B202 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A13D489A1D02C26A0035B202 /* Main.storyboard */; };
+		A13D489E1D02C26A0035B202 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A13D489D1D02C26A0035B202 /* Assets.xcassets */; };
+		A13D48A11D02C26A0035B202 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A13D489F1D02C26A0035B202 /* LaunchScreen.storyboard */; };
+		A13D48AC1D02C26B0035B202 /* dragon_slayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13D48AB1D02C26B0035B202 /* dragon_slayerTests.swift */; };
+		A13D48B71D02C26B0035B202 /* dragon_slayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13D48B61D02C26B0035B202 /* dragon_slayerUITests.swift */; };
+		A13D48C71D02C53B0035B202 /* MainScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13D48C61D02C53B0035B202 /* MainScene.swift */; };
+		A13D48C91D0426EA0035B202 /* MainScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A13D48C81D0426EA0035B202 /* MainScene.sks */; };
+		A13D48CB1D0428600035B202 /* PlayerNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13D48CA1D0428600035B202 /* PlayerNode.swift */; };
+		A13D48D11D0445370035B202 /* Geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13D48D01D0445370035B202 /* Geometry.swift */; };
+		A18EF2211D059A0400E834AE /* HeroAttack.atlas in Resources */ = {isa = PBXBuildFile; fileRef = A18EF21F1D059A0400E834AE /* HeroAttack.atlas */; };
+		A18EF2221D059A0400E834AE /* Effect.atlas in Resources */ = {isa = PBXBuildFile; fileRef = A18EF2201D059A0400E834AE /* Effect.atlas */; };
+		A18EF2241D059CC400E834AE /* EnemyNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18EF2231D059CC400E834AE /* EnemyNode.swift */; };
+		A18EF2261D05A59000E834AE /* ButtonNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18EF2251D05A59000E834AE /* ButtonNode.swift */; };
+		A18EF2281D05CB9300E834AE /* HeroWalk.atlas in Resources */ = {isa = PBXBuildFile; fileRef = A18EF2271D05CB9300E834AE /* HeroWalk.atlas */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A13D48A81D02C26B0035B202 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A13D48871D02C26A0035B202 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A13D488E1D02C26A0035B202;
+			remoteInfo = "dragon-slayer";
+		};
+		A13D48B31D02C26B0035B202 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A13D48871D02C26A0035B202 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A13D488E1D02C26A0035B202;
+			remoteInfo = "dragon-slayer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A13D488F1D02C26A0035B202 /* dragon-slayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dragon-slayer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A13D48921D02C26A0035B202 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A13D48941D02C26A0035B202 /* GameScened.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScened.sks; sourceTree = "<group>"; };
+		A13D48961D02C26A0035B202 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		A13D48981D02C26A0035B202 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		A13D489B1D02C26A0035B202 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A13D489D1D02C26A0035B202 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A13D48A01D02C26A0035B202 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A13D48A21D02C26A0035B202 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A13D48A71D02C26B0035B202 /* dragon-slayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dragon-slayerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A13D48AB1D02C26B0035B202 /* dragon_slayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dragon_slayerTests.swift; sourceTree = "<group>"; };
+		A13D48AD1D02C26B0035B202 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A13D48B21D02C26B0035B202 /* dragon-slayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dragon-slayerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A13D48B61D02C26B0035B202 /* dragon_slayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dragon_slayerUITests.swift; sourceTree = "<group>"; };
+		A13D48B81D02C26B0035B202 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A13D48C61D02C53B0035B202 /* MainScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScene.swift; sourceTree = "<group>"; };
+		A13D48C81D0426EA0035B202 /* MainScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainScene.sks; sourceTree = "<group>"; };
+		A13D48CA1D0428600035B202 /* PlayerNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerNode.swift; sourceTree = "<group>"; };
+		A13D48D01D0445370035B202 /* Geometry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Geometry.swift; sourceTree = "<group>"; };
+		A18EF21F1D059A0400E834AE /* HeroAttack.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = HeroAttack.atlas; sourceTree = "<group>"; };
+		A18EF2201D059A0400E834AE /* Effect.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Effect.atlas; sourceTree = "<group>"; };
+		A18EF2231D059CC400E834AE /* EnemyNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnemyNode.swift; sourceTree = "<group>"; };
+		A18EF2251D05A59000E834AE /* ButtonNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonNode.swift; sourceTree = "<group>"; };
+		A18EF2271D05CB9300E834AE /* HeroWalk.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = HeroWalk.atlas; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A13D488C1D02C26A0035B202 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A13D48A41D02C26B0035B202 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A13D48AF1D02C26B0035B202 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A13D48861D02C26A0035B202 = {
+			isa = PBXGroup;
+			children = (
+				A13D48911D02C26A0035B202 /* dragon-slayer */,
+				A13D48AA1D02C26B0035B202 /* dragon-slayerTests */,
+				A13D48B51D02C26B0035B202 /* dragon-slayerUITests */,
+				A13D48901D02C26A0035B202 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A13D48901D02C26A0035B202 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A13D488F1D02C26A0035B202 /* dragon-slayer.app */,
+				A13D48A71D02C26B0035B202 /* dragon-slayerTests.xctest */,
+				A13D48B21D02C26B0035B202 /* dragon-slayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A13D48911D02C26A0035B202 /* dragon-slayer */ = {
+			isa = PBXGroup;
+			children = (
+				A18EF2271D05CB9300E834AE /* HeroWalk.atlas */,
+				A18EF21F1D059A0400E834AE /* HeroAttack.atlas */,
+				A18EF2201D059A0400E834AE /* Effect.atlas */,
+				A13D48C81D0426EA0035B202 /* MainScene.sks */,
+				A13D48921D02C26A0035B202 /* AppDelegate.swift */,
+				A13D48941D02C26A0035B202 /* GameScened.sks */,
+				A13D48961D02C26A0035B202 /* GameScene.swift */,
+				A13D48981D02C26A0035B202 /* GameViewController.swift */,
+				A13D48D01D0445370035B202 /* Geometry.swift */,
+				A13D489A1D02C26A0035B202 /* Main.storyboard */,
+				A13D489D1D02C26A0035B202 /* Assets.xcassets */,
+				A13D489F1D02C26A0035B202 /* LaunchScreen.storyboard */,
+				A13D48A21D02C26A0035B202 /* Info.plist */,
+				A13D48C61D02C53B0035B202 /* MainScene.swift */,
+				A13D48CA1D0428600035B202 /* PlayerNode.swift */,
+				A18EF2231D059CC400E834AE /* EnemyNode.swift */,
+				A18EF2251D05A59000E834AE /* ButtonNode.swift */,
+			);
+			path = "dragon-slayer";
+			sourceTree = "<group>";
+		};
+		A13D48AA1D02C26B0035B202 /* dragon-slayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A13D48AB1D02C26B0035B202 /* dragon_slayerTests.swift */,
+				A13D48AD1D02C26B0035B202 /* Info.plist */,
+			);
+			path = "dragon-slayerTests";
+			sourceTree = "<group>";
+		};
+		A13D48B51D02C26B0035B202 /* dragon-slayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A13D48B61D02C26B0035B202 /* dragon_slayerUITests.swift */,
+				A13D48B81D02C26B0035B202 /* Info.plist */,
+			);
+			path = "dragon-slayerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A13D488E1D02C26A0035B202 /* dragon-slayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A13D48BB1D02C26B0035B202 /* Build configuration list for PBXNativeTarget "dragon-slayer" */;
+			buildPhases = (
+				A13D488B1D02C26A0035B202 /* Sources */,
+				A13D488C1D02C26A0035B202 /* Frameworks */,
+				A13D488D1D02C26A0035B202 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "dragon-slayer";
+			productName = "dragon-slayer";
+			productReference = A13D488F1D02C26A0035B202 /* dragon-slayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A13D48A61D02C26B0035B202 /* dragon-slayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A13D48BE1D02C26B0035B202 /* Build configuration list for PBXNativeTarget "dragon-slayerTests" */;
+			buildPhases = (
+				A13D48A31D02C26B0035B202 /* Sources */,
+				A13D48A41D02C26B0035B202 /* Frameworks */,
+				A13D48A51D02C26B0035B202 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A13D48A91D02C26B0035B202 /* PBXTargetDependency */,
+			);
+			name = "dragon-slayerTests";
+			productName = "dragon-slayerTests";
+			productReference = A13D48A71D02C26B0035B202 /* dragon-slayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A13D48B11D02C26B0035B202 /* dragon-slayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A13D48C11D02C26B0035B202 /* Build configuration list for PBXNativeTarget "dragon-slayerUITests" */;
+			buildPhases = (
+				A13D48AE1D02C26B0035B202 /* Sources */,
+				A13D48AF1D02C26B0035B202 /* Frameworks */,
+				A13D48B01D02C26B0035B202 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A13D48B41D02C26B0035B202 /* PBXTargetDependency */,
+			);
+			name = "dragon-slayerUITests";
+			productName = "dragon-slayerUITests";
+			productReference = A13D48B21D02C26B0035B202 /* dragon-slayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A13D48871D02C26A0035B202 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = JoNaRae;
+				TargetAttributes = {
+					A13D488E1D02C26A0035B202 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					A13D48A61D02C26B0035B202 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = A13D488E1D02C26A0035B202;
+					};
+					A13D48B11D02C26B0035B202 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = A13D488E1D02C26A0035B202;
+					};
+				};
+			};
+			buildConfigurationList = A13D488A1D02C26A0035B202 /* Build configuration list for PBXProject "dragon-slayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A13D48861D02C26A0035B202;
+			productRefGroup = A13D48901D02C26A0035B202 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A13D488E1D02C26A0035B202 /* dragon-slayer */,
+				A13D48A61D02C26B0035B202 /* dragon-slayerTests */,
+				A13D48B11D02C26B0035B202 /* dragon-slayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A13D488D1D02C26A0035B202 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A13D48951D02C26A0035B202 /* GameScened.sks in Resources */,
+				A13D48A11D02C26A0035B202 /* LaunchScreen.storyboard in Resources */,
+				A13D48C91D0426EA0035B202 /* MainScene.sks in Resources */,
+				A18EF2221D059A0400E834AE /* Effect.atlas in Resources */,
+				A13D489E1D02C26A0035B202 /* Assets.xcassets in Resources */,
+				A13D489C1D02C26A0035B202 /* Main.storyboard in Resources */,
+				A18EF2281D05CB9300E834AE /* HeroWalk.atlas in Resources */,
+				A18EF2211D059A0400E834AE /* HeroAttack.atlas in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A13D48A51D02C26B0035B202 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A13D48B01D02C26B0035B202 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A13D488B1D02C26A0035B202 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A13D48971D02C26A0035B202 /* GameScene.swift in Sources */,
+				A18EF2241D059CC400E834AE /* EnemyNode.swift in Sources */,
+				A13D48D11D0445370035B202 /* Geometry.swift in Sources */,
+				A13D48C71D02C53B0035B202 /* MainScene.swift in Sources */,
+				A13D48991D02C26A0035B202 /* GameViewController.swift in Sources */,
+				A18EF2261D05A59000E834AE /* ButtonNode.swift in Sources */,
+				A13D48931D02C26A0035B202 /* AppDelegate.swift in Sources */,
+				A13D48CB1D0428600035B202 /* PlayerNode.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A13D48A31D02C26B0035B202 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A13D48AC1D02C26B0035B202 /* dragon_slayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A13D48AE1D02C26B0035B202 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A13D48B71D02C26B0035B202 /* dragon_slayerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A13D48A91D02C26B0035B202 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A13D488E1D02C26A0035B202 /* dragon-slayer */;
+			targetProxy = A13D48A81D02C26B0035B202 /* PBXContainerItemProxy */;
+		};
+		A13D48B41D02C26B0035B202 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A13D488E1D02C26A0035B202 /* dragon-slayer */;
+			targetProxy = A13D48B31D02C26B0035B202 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A13D489A1D02C26A0035B202 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A13D489B1D02C26A0035B202 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A13D489F1D02C26A0035B202 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A13D48A01D02C26A0035B202 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A13D48B91D02C26B0035B202 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A13D48BA1D02C26B0035B202 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A13D48BC1D02C26B0035B202 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "dragon-slayer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kr.ac.gachon.dragon-slayer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A13D48BD1D02C26B0035B202 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "dragon-slayer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kr.ac.gachon.dragon-slayer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A13D48BF1D02C26B0035B202 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "dragon-slayerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kr.ac.gachon.dragon-slayerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dragon-slayer.app/dragon-slayer";
+			};
+			name = Debug;
+		};
+		A13D48C01D02C26B0035B202 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "dragon-slayerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kr.ac.gachon.dragon-slayerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dragon-slayer.app/dragon-slayer";
+			};
+			name = Release;
+		};
+		A13D48C21D02C26B0035B202 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "dragon-slayerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kr.ac.gachon.dragon-slayerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "dragon-slayer";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A13D48C31D02C26B0035B202 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "dragon-slayerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kr.ac.gachon.dragon-slayerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "dragon-slayer";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A13D488A1D02C26A0035B202 /* Build configuration list for PBXProject "dragon-slayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A13D48B91D02C26B0035B202 /* Debug */,
+				A13D48BA1D02C26B0035B202 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A13D48BB1D02C26B0035B202 /* Build configuration list for PBXNativeTarget "dragon-slayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A13D48BC1D02C26B0035B202 /* Debug */,
+				A13D48BD1D02C26B0035B202 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A13D48BE1D02C26B0035B202 /* Build configuration list for PBXNativeTarget "dragon-slayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A13D48BF1D02C26B0035B202 /* Debug */,
+				A13D48C01D02C26B0035B202 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A13D48C11D02C26B0035B202 /* Build configuration list for PBXNativeTarget "dragon-slayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A13D48C21D02C26B0035B202 /* Debug */,
+				A13D48C31D02C26B0035B202 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A13D48871D02C26A0035B202 /* Project object */;
+}
